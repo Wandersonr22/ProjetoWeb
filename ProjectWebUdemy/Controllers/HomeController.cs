@@ -17,7 +17,9 @@ namespace ProjectWebUdemy.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Projeto realizado para estudo na plataforma Udemy.";
+            ViewData["Email"] = "wandersonr32@gmail.com";
+            ViewData["Nome"] = "Wanderson Bina";
 
             return View();
         }
