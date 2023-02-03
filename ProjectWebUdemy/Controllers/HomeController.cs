@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProjectWebUdemy.Models;
+using ProjectWebUdemy.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
