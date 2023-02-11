@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ProjectWebUdemy.Models;
 using ProjectWebUdemy.Data;
+using ProjectWebUdemy.Services;
 
 namespace ProjectWebUdemy
 {
@@ -42,6 +43,7 @@ namespace ProjectWebUdemy
             builder.MigrationsAssembly("ProjectWebUdemy")));
 
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
 
         }
 
