@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjectWebUdemy.Models;
 
 namespace ProjectWebUdemy.Migrations
 {
     [DbContext(typeof(ProjectWebUdemyContext))]
-    partial class ProjectWebUdemyContextModelSnapshot : ModelSnapshot
+    [Migration("20230215015243_DepartmentForeignKey")]
+    partial class DepartmentForeignKey
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
